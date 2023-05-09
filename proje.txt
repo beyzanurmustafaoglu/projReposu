@@ -1,100 +1,100 @@
 
-das Jahr, e		    yıl			das Jahr		die Jahre
-das Beispiel, e		örnek			das Beispiel		die Beispiele
-die Zeit, en		zaman			die Zeit		die Zeiten
-die Frau, en		kadın, eş		die Frau		die Frauen
-der Mensch, en		insan,insanoğlu	 	der Mensch		die Menschen
-das Kind, er		çocuk			das Kind		die Kinder
-der Tag, e		    gün			der Tag			die Tage
-der Mann,..er		erkek			der Mann		die Männer
-das Land,..er/e		ülke			das Land		die Länder, Lande
-die Frage, n		soru			die Frage		die Fragen
-das Haus, ..er		ev			das Haus		die Häuser
-der Fall, ..e		durum, vaziyet		der Fall		die Fälle
-die Leute		    insanlar		–			die Leute
-die Arbeit, en		iş, çalışma		die Arbeit		die Arbeiten
-das Prozent, e		yüzde			das Prozent		die Prozente
-das Hand, ..e		el			das Hand		die Hände
-die Stadt, ..e		şehir			die Stadt		die Städte
-der Herr, en		bay, efendi		der Herr		die Herren
-der Teil, e		    parça, bölüm		der Teil		die Teile
-das Problem, e		sorun			das Problem		die Probleme
-die Welt, en		dünya			die Welt		die Welten
-das Recht, e		hak, doğru		das Recht		die Rechte
-das Ende, n		    son			das Ende		die Enden
-die Million, en		milyon			die Million		die Millionen
-die Schule, n		okul			die Schule		die Schulen
-die Woche		    hafta			die Woche		die Wochen
-der Vater, ..		baba			der Vater		die Väter
-die Seite, n		sayfa			die Seite		die Seiten
-das Leben, –		hayat			das Leben		die Leben
-die Mutter, ..		anne			die Mutter		die Mütter
-der Grund, ..e		sebep			der Grund		die Gründe
-das Auge,n		    göz			das Auge		die Augen
-das Wort,..er/e 	kelime			das Wort		die Wörter/Worte
-das Geld, er		para			das Geld		die Gelder
-die Sache, n		şey			die Sache		die Sachen
-die Art, en		    tip, tür		die Art			die Arten
-der Bereich, e		alan			der Bereich		die Bereiche
-der Weg, e		    yol, patika		der Weg			die Wege
-die Stunde, n		saat			die Stunde		die Stunden
-der Name, n		    isim, ad		der Name		die Namen
-die Geschichte, n	tarih, öykü		die Geschichte		die Geschichten
-die Gesellschaft,en toplum			die Gesellschaft	die Gesellschaften
-der Kopf, ..e		kafa			der Kopf		die Köpfe
-das Paar, e		    çift			das Paar		die Paare
-die Möglichkeit en 	fırsat,imkan 		die Möglichkeit		die Möglichkeiten
-das Unternehmen, 	girişim,şirket		das Unternehmen		die Unternehmen
-das Bild, er		resim			das Bild		die Bilder
-das Wasser, –		su			das Wasser		die Wasser
-die Stelle, n		baasmak, yer		die Stelle		die Stellen
-die Form		    form, biçim		die Form		die Formen
-die Entwicklung,    en	gelişim			die Entwicklung		die Entwicklungen
-der Monat, e		ay			der Monat		die Monate
-die Familie, n		aile			die Familie		die Familien
-der Morgen, –		sabah			der Morgen		die Morgen
-der Abend, e		akşam			der Abend		die Abende
-die Aufgabe, n		görev			die Aufgaben
-die Universität, 	en üniversite		die Universität		die Universitäten
-die Uni			    üniversite		die Uni			die Unis
-der Sinn, e		    anlam, duyu		der Sinn		die Sinne
-der Staat, en		eyalet, devlet		der Staat		die Staaten
-das Ziel, e		    amaç, hedef		das Ziel		die Ziele
-der Freund, e		arkadaş			der Freund		die Freunde
-das Thema, ta		konu			das Thema		das Themata
-die Person, en		insan			die Person		die Personen
-die Nacht, ..e		gece			die Nacht		die Nächte
-das Ding, e		    şey			das Ding		die Dinge
-der Raum, ..e		oda, boşluk		der Raum		die Räume
-der Blick, e		görünüm			der Blick		die Blicke
-der Platz, e		yer, meydan		der Platz		die Plätze
-die Zahl, en		sayı			die Zahl		die Zahlen
-das System, e		sistem			das System		die Systeme
-die Uhr, en		    saat			die Uhr			die Uhren
-die Eltern		    ebeveyn			–			die Eltern
-die Straße, n		sokak			die Straße		die Straßen
-die Minute, n		dakika			die Minute		die Minuten
-die Gruppe, n		grup			die Gruppe		die Gruppen
-der Wert, e		    değer			der Wert		die Werte
-das Gesicht, er		yüz			das Gesicht		die Gesichter
-die Sprache, n		dil			die Sprache		die Sprachen
-der Anfang, ..e		başlangıç		der Anfang		die Anfänge
-der Ort, e		    yer, belde		der Ort			die Orte
-der Moment, e		an			der Moment		die Momente
-die Folge, n		sonuç			die Folge		die Folgen
-das Interesse, n	ilgi			das Interesse		die Interessen
-der Stuhl, ..e		sandalye		der Stuhl		die Stühle
-die Rolle, n		rol, rulo		die Rolle		die Rollen
-die Tür, en		    kapı			die Tür			die Türen
-der Schüler, –		öğrenci			der Schüler		die Schüler
-die Bedeutung, en	anlam			die Bedeutung		die Bedeutungen
-der Text, e		    metin			der Text		die Texte
-das Ergebnis, se	sonuç			das Ergebnis		die Ergebnisse
-der Krieg, e		savaş			der Krieg		die Kriege
-die Weise, n		yol			die Weise		die Weisen
-die Regierung, en 	hükümet			die Regierung		die Regierungen
-das Stück, e		parça, adet		das Stück		die Stücke
-die Wohnung, en		apartman		die Wohnung		die Wohnungen
-das Gespräch, e		konuşma, sohbet		das Gespräch		die Gespräche
-das Buch, ..er		kitap			das Buch		die Bücher
-das Auto, s		    araba			das Auto		die Autos
+das Jahr, e		 :   yıl			
+das Beispiel, e	 :	örnek			
+die Zeit, en	 :	zaman			
+die Frau, en	 :	kadın, eş		
+der Mensch, en	 :	insan,insanoğlu	 	
+das Kind, er	 : 	çocuk			
+der Tag, e		 :   gün			
+der Mann,..er	 :	erkek			
+das Land,..er/e	 :	ülke			
+die Frage, n	 : 	soru			
+das Haus, ..er	 :	ev			
+der Fall, ..e	 : 	durum, vaziyet		
+die Leute		 :   insanlar		
+die Arbeit, en	 :	iş, çalışma		
+das Prozent, e	 :	yüzde			
+das Hand, ..e	 :	el			
+die Stadt, ..e	 : 	şehir			
+der Herr, en	 :	bay, efendi		
+der Teil, e		 :  parça, bölüm		
+das Problem, e	 :	sorun			
+die Welt, en	 :	dünya			
+das Recht, e	 :	hak, doğru		
+das Ende, n		 :  son			
+die Million, en	 :	milyon			
+die Schule, n	 :	okul			
+die Woche		 :  hafta			
+der Vater, ..	 :	baba			
+die Seite, n	 :	sayfa			
+das Leben, –	 :	hayat			
+die Mutter, ..	 :	anne			
+der Grund, ..e	 :	sebep			
+das Auge,n		 :  göz			
+das Wort,..er/e  :	kelime			
+das Geld, er	 :	para			
+die Sache, n	 :	şey			
+die Art, en		 :  tip, tür		
+der Bereich, e	 :	alan			
+der Weg, e		 :  yol, patika		
+die Stunde, n	 :	saat			
+der Name, n		 :  isim, ad		
+die Geschichte, n:	tarih, öykü		
+die Gesellschaft,en : toplum			
+der Kopf, ..e	 :	kafa			
+das Paar, e		 :   çift			
+die Möglichkeit en :fırsat,imkan 		
+das Unternehmen, :  girişim,şirket		
+das Bild, er	 :	resim			
+das Wasser, –	 :	su			
+die Stelle, n	 :	baasmak, yer		
+die Form		 :  form, biçim		
+die Entwicklung, :  en	gelişim			
+der Monat, e	 :	ay			
+die Familie, n	 :	aile			
+der Morgen, –	 :	sabah			
+der Abend, e	 :	akşam			
+die Aufgabe, n	 :	görev			
+die Universität, :	en üniversite		
+die Uni			 :  üniversite		
+der Sinn, e		 :  anlam, duyu		
+der Staat, en	 :	eyalet, devlet		
+das Ziel, e		 :  amaç, hedef		
+der Freund, e	 :	arkadaş			
+das Thema, ta	 :	konu			
+die Person, en	 :	insan			
+die Nacht, ..e	 :	gece			
+das Ding, e		 :  şey			
+der Raum, ..e	 :	oda, boşluk		
+der Blick, e	 :	görünüm			
+der Platz, e	 :	yer, meydan		
+die Zahl, en	 :	sayı			
+das System, e	 :	sistem			
+die Uhr, en		 :  saat			
+die Eltern		 :  ebeveyn			
+die Straße, n	 :	sokak			
+die Minute, n	 :	dakika			
+die Gruppe, n	 :	grup			
+der Wert, e		 :   değer			
+das Gesicht, er	 :	yüz			
+die Sprache, n	 :	dil			
+der Anfang, ..e	 :	başlangıç		
+der Ort, e		 :  yer, belde		
+der Moment, e	 :	an			
+die Folge, n	 :	sonuç			
+das Interesse, n :	ilgi			
+der Stuhl, ..e	 :	sandalye		
+die Rolle, n	 :	rol, rulo		
+die Tür, en		 :   kapı			
+der Schüler, –	 :	öğrenci			
+die Bedeutung, en:	anlam			
+der Text, e		 :  metin			
+das Ergebnis, se :	sonuç			
+der Krieg, e	 :	savaş			
+die Weise, n	 :	yol			
+die Regierung, en: 	hükümet			
+das Stück, e	 :	parça, adet		
+die Wohnung, en	 :	apartman		
+das Gespräch, e	 :	konuşma, sohbet		
+das Buch, ..er	 :	kitap			
+das Auto, s		 :  araba			

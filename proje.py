@@ -1,1 +1,3 @@
-print(hello)
+       
+def main():
+    kelime =
