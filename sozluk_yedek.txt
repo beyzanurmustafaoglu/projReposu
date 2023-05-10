@@ -8,7 +8,7 @@
  Mann:erkek			
  Land:ülke			
  Frage:soru			
-Haus:ev,
+ Haus:ev			
  Fall:durum, vaziyet		
  Leute:insanlar		
  Arbeit:iş, çalışma		
@@ -24,10 +24,10 @@ Haus:ev,
  Million:milyon			
  Schule:okul			
  Woche:hafta			
-Vater:baba
+ Vater:baba			
  Seite:sayfa			
  Leben:hayat			
-Mutter:anne
+ Mutter:anne			
  Grund:sebep			
  Auge,n:göz			
  Wort:kelime			
@@ -96,4 +96,4 @@ Mutter:anne
  Wohnung:apartman		
  Gespräch:konuşma,sohbet		
  Buch:kitap			
- Auto:araba			
+ Auto:araba	
