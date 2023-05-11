@@ -47,6 +47,22 @@ class Sozluk:
         kelime=kelime.capitalize()
         if kelime in self.sozluk:
             print(f"{kelime} kelimesi için bilgiler:{self.sozluk[kelime]}")  
+
+    def tanim_degistir(self, kelime, tanim):
+         if kelime in self.sozluk:
+             self.sozluk[kelime] = tanim
+             print("Kelimenin tanımı güncellendi.")
+         else:
+             self.sozluk[kelime] = tanim
+             print("Kelime sözlüğe eklendi.")
+
+    def es_anlamli_kelime_ekle(self, kelime, es_anlam):
+        if kelime in self.sozluk:
+            self.sozluk[kelime].append(es_anlam)
+            print("Eş anlamlı sözcük sözlüğe eklendi.")
+        else:
+            self.sozluk[kelime] = es_anlam
+        
 def main():
     sozluk=Sozluk()
     #sozluk.kelime_bilgi_goster()
