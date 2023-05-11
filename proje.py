@@ -64,17 +64,16 @@ class Sozluk:
                 dosya.write(f"{key1} : {self.sozluk[key1]}\n")
 
     def es_anlamli_kelime_ekle(self):
-        kelime = input("Lütfen eş anlamlısını öğrenmek istediğiniz kelimeyi giriniz.")
+        kelime = input("Lütfen eş anlamlısını kaydetmek istediğiniz kelimeyi giriniz.")
         kelime = kelime.capitalize()
-        es_anlam = input("Lütfen öğrenmek istediğiniz kelimenin eş anlamını giriniz:")
+        es_anlam = input("Lütfen kelimenin eş anlamlisini giriniz:")
         if kelime in self.sozluk:
             self.sozluk[kelime].append(es_anlam)
             print("Eş anlamlı sözcük sözlüğe eklendi.")
         else:
             with open("es_anlamlilar.txt", "a") as f:
-                 f.write(kelime + "," + es_anlam + "\n")
+                 f.write("kelimemiz:"+kelime + " , " +"es anlamlisi:"+es_anlam + "\n")
                  print("Yeni kelime ve eş anlamlısı dosyaya kaydedildi.")
-        self.sozluk[kelime] = [es_anlam]
         
             
     def kelimeyi_deftere_ekle(self):
@@ -101,6 +100,6 @@ def main():
     #sozluk.tanim_degistir()
     #sozluk.es_anlamli_kelime_ekle()
     #sozluk.kelime_defterini_goster()
-    sozluk.kelimeyi_deftere_ekle()
+    #sozluk.kelimeyi_deftere_ekle()
     
 main()
