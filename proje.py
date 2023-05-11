@@ -48,13 +48,20 @@ class Sozluk:
         if kelime in self.sozluk:
             print(f"{kelime} kelimesi için bilgiler:{self.sozluk[kelime]}")  
 
-    def tanim_degistir(self, kelime, tanim):
-         if kelime in self.sozluk:
+    def tanim_degistir(self):
+        kelime=input("Lutfen tanimini degistirmek istediginiz kelimeyi giriniz:")
+        kelime=kelime.capitalize()
+        tanim=input("Lutfen yeni tanimi giriniz:")
+        if kelime in self.sozluk:
              self.sozluk[kelime] = tanim
-             print("Kelimenin tanımı güncellendi.")
-         else:
+             print("Kelimenin tanimi güncellendi.")
+        else:
+             print("Aradiginiz kelime bulunamadi.Bu kelimeyi sozluge ekleyip yeni tanim olusturabilirsiniz.")
              self.sozluk[kelime] = tanim
              print("Kelime sözlüğe eklendi.")
+        with open('proje.txt','w') as dosya:
+            for key1 in self.sozluk.keys():
+                dosya.write(f"{key1} : {self.sozluk[key1]}\n")
 
     def es_anlamli_kelime_ekle(self):
         kelime = input("Lütfen eş anlamlısını öğrenmek istediğiniz kelimeyi giriniz.")
@@ -64,12 +71,32 @@ class Sozluk:
             self.sozluk[kelime].append(es_anlam)
             print("Eş anlamlı sözcük sözlüğe eklendi.")
         else:
+<<<<<<< HEAD
             with open("es_anlamlilar.txt", "a") as f:
                  f.write(kelime + "," + es_anlam + "\n")
                  print("Yeni kelime ve eş anlamlısı dosyaya kaydedildi.")
         self.sozluk[kelime] = [es_anlam]
         
+=======
+            self.sozluk[kelime] = es_anlam
+            
+    def kelimeyi_deftere_ekle(self):
+        kelime=input("Anlamını bilmediğiniz kelimeyi giriniz: ")
+        anlam=input("Bilmediğiniz kelimenin anlamını giriniz: ")
+        with open("defter.txt","a") as dosya:
+            dosya.write(kelime+":"+anlam+"\n")
+>>>>>>> b2c57d8a405077c7b25a9e9c0073c302176f7e72
         
+
+
+    def kelime_defterini_goster(self):
+        with open("defter.txt","r") as dosya:
+            satirlar=dosya.readlines()
+            for satir in satirlar:
+                kelime,anlam=satir.strip().split(":")
+                print(kelime,":",anlam)
+        
+            
 def main():
     sozluk=Sozluk()
     #sozluk.kelime_bilgi_goster()
@@ -77,5 +104,7 @@ def main():
     #sozluk.yorumEkle()
     #sozluk.tanim_degistir()
     #sozluk.es_anlamli_kelime_ekle()
-
+    #sozluk.kelime_defterini_goster()
+    sozluk.kelimeyi_deftere_ekle()
+    
 main()
