@@ -71,21 +71,17 @@ class Sozluk:
             self.sozluk[kelime].append(es_anlam)
             print("Eş anlamlı sözcük sözlüğe eklendi.")
         else:
-<<<<<<< HEAD
             with open("es_anlamlilar.txt", "a") as f:
                  f.write(kelime + "," + es_anlam + "\n")
                  print("Yeni kelime ve eş anlamlısı dosyaya kaydedildi.")
         self.sozluk[kelime] = [es_anlam]
         
-=======
-            self.sozluk[kelime] = es_anlam
             
     def kelimeyi_deftere_ekle(self):
         kelime=input("Anlamını bilmediğiniz kelimeyi giriniz: ")
         anlam=input("Bilmediğiniz kelimenin anlamını giriniz: ")
         with open("defter.txt","a") as dosya:
             dosya.write(kelime+":"+anlam+"\n")
->>>>>>> b2c57d8a405077c7b25a9e9c0073c302176f7e72
         
 
 
