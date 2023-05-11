@@ -58,18 +58,24 @@ class Sozluk:
 
     def es_anlamli_kelime_ekle(self):
         kelime = input("Lütfen eş anlamlısını öğrenmek istediğiniz kelimeyi giriniz.")
+        kelime = kelime.capitalize()
+        es_anlam = input("Lütfen öğrenmek istediğiniz kelimenin eş anlamını giriniz:")
         if kelime in self.sozluk:
             self.sozluk[kelime].append(es_anlam)
             print("Eş anlamlı sözcük sözlüğe eklendi.")
         else:
-            self.sozluk[kelime] = es_anlam
+            with open("es_anlamlilar.txt", "a") as f:
+                 f.write(kelime + "," + es_anlam + "\n")
+                 print("Yeni kelime ve eş anlamlısı dosyaya kaydedildi.")
+        self.sozluk[kelime] = [es_anlam]
+        
         
 def main():
     sozluk=Sozluk()
     #sozluk.kelime_bilgi_goster()
     #sozluk.cumleEkle()
     #sozluk.yorumEkle()
-    #sozluk.tanim_degistir("kelime", "yeni tanim")
+    #sozluk.tanim_degistir()
     #sozluk.es_anlamli_kelime_ekle()
 
 main()
