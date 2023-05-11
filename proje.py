@@ -56,7 +56,8 @@ class Sozluk:
              self.sozluk[kelime] = tanim
              print("Kelime sözlüğe eklendi.")
 
-    def es_anlamli_kelime_ekle(self, kelime, es_anlam):
+    def es_anlamli_kelime_ekle(self):
+        kelime = input("Lütfen eş anlamlısını öğrenmek istediğiniz kelimeyi giriniz.")
         if kelime in self.sozluk:
             self.sozluk[kelime].append(es_anlam)
             print("Eş anlamlı sözcük sözlüğe eklendi.")
@@ -68,5 +69,7 @@ def main():
     #sozluk.kelime_bilgi_goster()
     #sozluk.cumleEkle()
     #sozluk.yorumEkle()
-    
+    #sozluk.tanim_degistir("kelime", "yeni tanim")
+    #sozluk.es_anlamli_kelime_ekle()
+
 main()
