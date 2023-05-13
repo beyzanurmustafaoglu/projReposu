@@ -73,7 +73,10 @@ class Sozluk:
         kelime = kelime.capitalize()
         es_anlam = input("Lütfen kelimenin eş anlamlisini giriniz:")
         if kelime in self.sozluk:
-            self.sozluk[kelime].append(es_anlam)
+            if isinstance(self.sozluk[kelime], list):
+                self.sozluk[kelime].append(es_anlam)
+            else:
+                self.sozluk[kelime] = [self.sozluk[kelime], es_anlam]
             with open('proje.txt','r') as dosya:
                 satirlar=dosya.readlines()
             with open('proje.txt','w') as dosya:
@@ -89,9 +92,8 @@ class Sozluk:
             with open("es_anlamlilar.txt", "a") as f:
                  f.write("kelimemiz:"+kelime + " , " +"es anlamlisi:"+es_anlam + "\n")
                  print("Yeni kelime ve eş anlamlısı dosyaya kaydedildi.")
-        
-                 
-        
+
+
             
     def kelimeyi_deftere_ekle(self):
         kelime=input("Anlamını bilmediğiniz kelimeyi giriniz: ")
@@ -117,9 +119,20 @@ class Sozluk:
         with open("defter.txt","r") as dosya:
             satirlar=dosya.readlines()
             for satir in satirlar:
-                kelime,anlam=satir.strip().split(":")
-                print(kelime,":",anlam)
+                satir=satir.strip()
+                if ":" in satir:
+                    kelime,anlam=satir.strip().split(":")
+                    print(kelime,":",anlam)
+                else: 
+                    print(satir)
         
+
+
+
+
+
+
+
             
 def main():
     sozluk=Sozluk()

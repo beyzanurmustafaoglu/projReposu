@@ -100,4 +100,4 @@ Auto:araba
 Katze:Kedi
 Erdnuss:Yer Fistigi
 Hund:Kopek
-Flugzeit:ucak kalkis saati,ornek cumle = ucak saati ile ilgili kelime,yorum = havaalan� c�mleleri icin kullanisli
+
