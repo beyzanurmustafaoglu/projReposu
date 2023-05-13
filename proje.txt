@@ -100,3 +100,5 @@ Auto:araba
 Katze:Kedi
 Erdnuss:Yer Fistigi
 Hund:Kopek
+
+
