@@ -4,7 +4,7 @@ class Sozluk:
             satirlar = dosya.readlines()
         self.sozluk = {}
         for satir in satirlar:
-            kelime, tanim = satir.strip().split(":")
+            kelime , tanim = satir.strip().split(":")
             self.sozluk[kelime]=tanim
         self.kelime_defteri = []
     
@@ -52,8 +52,16 @@ class Sozluk:
         kelime=input("Lutfen tanimini degistirmek istediginiz kelimeyi giriniz:")
         kelime=kelime.capitalize()
         tanim=input("Lutfen yeni tanimi giriniz:")
-        if kelime in self.sozluk:
+        if kelime in self.sozluk.keys():
              self.sozluk[kelime] = tanim
+             with open('proje.tx','r')as dosya:
+                 satirlar=dosya.readlines()
+             with open('proje.txt','w')as dosya:
+                for satir in satirlar:
+                    if kelime in satir:
+                        dosya.write(satir.replace(kelime,tanim))
+                    else:
+                        dosya.write(satir)
              print("Kelimenin tanimi güncellendi.")
         else:
              print("Aradiginiz kelime bulunamadi.Bu kelimeyi sozluge ekleyip yeni tanim olusturabilirsiniz.")
@@ -82,7 +90,17 @@ class Sozluk:
         with open("defter.txt","a") as dosya:
             dosya.write(kelime+":"+anlam+"\n")
         
-
+    def kelime_ekle(self):
+        kelime = input("Eklemek istediğiniz kelimeyi giriniz: ")
+        kelime = kelime.capitalize()
+        anlam = input("Lütfen girdiğiniz kelimenin anlamını giriniz: ")
+        if kelime not in self.sozluk:
+            self.sozluk[kelime] = [anlam]
+            with open('proje.txt', 'a') as dosya:
+                dosya.write(f"{kelime}:{anlam}\n")
+                print(f"{kelime} kelimesi sözlüğe eklendi.")
+        else:
+            print(f"{kelime} kelimesi zaten sözlükte mevcut.")
 
     def kelime_defterini_goster(self):
         with open("defter.txt","r") as dosya:
@@ -94,12 +112,40 @@ class Sozluk:
             
 def main():
     sozluk=Sozluk()
-    #sozluk.kelime_bilgi_goster()
-    #sozluk.cumleEkle()
-    #sozluk.yorumEkle()
-    #sozluk.tanim_degistir()
-    #sozluk.es_anlamli_kelime_ekle()
-    #sozluk.kelime_defterini_goster()
-    #sozluk.kelimeyi_deftere_ekle()
+    print("""
+    Sözlük
+    1.Kelime ekleme
+    2.Tanım değiştirme
+    3.Eş anlam ekle
+    4.Cümle ekle
+    5.Yorum ekle
+    6.Kelime defteri ekle
+    7.Kelime defteri göster
+    8.Kelime bilgi göster
+    Çıkmak için "enter" a basın.""")
+
+    while True:
+        islem= input("İşlemi seçiniz:")
+        if (islem==""):
+            print("Siteden çıkış yapıldı.")
+            break
+        elif (islem=="1"):
+            sozluk.kelime_ekle()
+        elif (islem=="2"):
+            sozluk.tanim_degistir()
+        elif (islem=="3"):
+            sozluk.es_anlamli_kelime_ekle()
+        elif (islem=="4"):
+            sozluk.cumleEkle()
+        elif (islem=="5"):
+            sozluk.yorumEkle()
+        elif (islem=="6"):
+            sozluk.kelimeyi_deftere_ekle()
+        elif (islem=="7"):
+            sozluk.kelime_defterini_goster()
+        elif (islem=="8"):
+            sozluk.kelime_bilgi_goster()
+        else:
+            pass
     
 main()
