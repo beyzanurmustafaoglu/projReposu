@@ -11,7 +11,7 @@ Frage:soru
 Haus:ev
 Fall:durum, vaziyet
 Leute:insanlar
-Arbeit:iş, çalışma
+Arbeit:iş, çalışma,es anlam = beruf
 Prozent:yüzde
 Hand:el
 Stadt:şehir
@@ -96,7 +96,8 @@ Stück:parça, adet
 Wohnung:apartman
 Gespräch:konuşma,sohbet
 Buch:kitap
-Auto:araba
+Auto:araba,ornek cumle = das ist auto
 Katze:Kedi
 Erdnuss:Yer Fistigi
 Hund:Kopek
+Flugzeit:ucak kalkis saati,yorum = bu kelimeyi havaalaninda kullanabiliriz
