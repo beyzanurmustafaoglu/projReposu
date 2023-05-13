@@ -4,8 +4,11 @@ class Sozluk:
             satirlar = dosya.readlines()
         self.sozluk = {}
         for satir in satirlar:
-            kelime , tanim = satir.strip().split(":")
-            self.sozluk[kelime]=tanim
+            try:
+                kelime , tanim = satir.strip().split(":")
+                self.sozluk[kelime]=tanim
+            except ValueError:
+                print("Sözlük dosyasindaki bazi satirlar yanliş biçimde.")
         self.kelime_defteri = []
     
     def cumleEkle(self):
@@ -46,7 +49,9 @@ class Sozluk:
         kelime=input("lutfen aratmak istediginiz kelimeyi giriniz:")
         kelime=kelime.capitalize()
         if kelime in self.sozluk:
-            print(f"{kelime} kelimesi için bilgiler:{self.sozluk[kelime]}")  
+            print(f"{kelime} kelimesi için bilgiler:{self.sozluk[kelime]}")
+        else:
+            print("Kelime sozlukte bulunamadi!Kelimeyi sozluge eklemek isterseniz kelime ekle kisminda ekleyebilirsiniz.")
 
     def tanim_degistir(self):
         kelime=input("Lutfen tanimini degistirmek istediginiz kelimeyi giriniz:")
@@ -54,14 +59,6 @@ class Sozluk:
         tanim=input("Lutfen yeni tanimi giriniz:")
         if kelime in self.sozluk.keys():
              self.sozluk[kelime] = tanim
-             with open('proje.tx','r')as dosya:
-                 satirlar=dosya.readlines()
-             with open('proje.txt','w')as dosya:
-                for satir in satirlar:
-                    if kelime in satir:
-                        dosya.write(satir.replace(kelime,tanim))
-                    else:
-                        dosya.write(satir)
              print("Kelimenin tanimi güncellendi.")
         else:
              print("Aradiginiz kelime bulunamadi.Bu kelimeyi sozluge ekleyip yeni tanim olusturabilirsiniz.")
@@ -69,7 +66,7 @@ class Sozluk:
              print("Kelime sözlüğe eklendi.")
         with open('proje.txt','w') as dosya:
             for key1 in self.sozluk.keys():
-                dosya.write(f"{key1} : {self.sozluk[key1]}\n")
+                dosya.write(f"{key1}:{self.sozluk[key1]}\n")
 
     def es_anlamli_kelime_ekle(self):
         kelime = input("Lütfen eş anlamlısını kaydetmek istediğiniz kelimeyi giriniz.")
@@ -97,7 +94,7 @@ class Sozluk:
         if kelime not in self.sozluk:
             self.sozluk[kelime] = [anlam]
             with open('proje.txt', 'a') as dosya:
-                dosya.write(f"{kelime}:{anlam}\n")
+                dosya.write(f"\n{kelime}:{anlam}\n")
                 print(f"{kelime} kelimesi sözlüğe eklendi.")
         else:
             print(f"{kelime} kelimesi zaten sözlükte mevcut.")
