@@ -27,7 +27,7 @@ Woche:hafta
 Vater:baba
 Seite:sayfa
 Leben:hayat
-Mutter:anne
+Mutter:Anne
 Grund:sebep
 Auge,n:göz
 Wort:kelime
@@ -98,3 +98,5 @@ Gespräch:konuşma,sohbet
 Buch:kitap
 Auto:araba
 Katze:Kedi
+Erdnuss:Yer Fistigi
+Hund:Kopek

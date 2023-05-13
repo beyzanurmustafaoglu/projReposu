@@ -86,6 +86,7 @@ class Sozluk:
         anlam=input("Bilmediğiniz kelimenin anlamını giriniz: ")
         with open("defter.txt","a") as dosya:
             dosya.write(kelime+":"+anlam+"\n")
+            print(f"{kelime} kelimesi ve anlami deftere eklendi!")
         
     def kelime_ekle(self):
         kelime = input("Eklemek istediğiniz kelimeyi giriniz: ")
@@ -100,6 +101,7 @@ class Sozluk:
             print(f"{kelime} kelimesi zaten sözlükte mevcut.")
 
     def kelime_defterini_goster(self):
+        print("Kelime defteri gosteriliyor..")
         with open("defter.txt","r") as dosya:
             satirlar=dosya.readlines()
             for satir in satirlar:
